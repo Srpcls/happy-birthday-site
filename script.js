@@ -133,6 +133,7 @@ const replayBtn = document.getElementById("replay-btn");
 
 const chars = 'HAPPYBIRTHDAY';
 const fontSize = 14;
+ctx.font = fontSize + "px 'Mitr', sans-serif";
 let columns, drops = [];
 let index = 0, matrixFadeOut = false, matrixOpacity = 1;
 let animationInterval;
