@@ -271,7 +271,7 @@ const texts = [
   "HAPPY<br>BIRTHDAY",
   "นะค้าบบบบบ",
   "พี่เบนซ์ ❤️",
-  "🎂10/08/2025🎂"
+  "🎂 10/08/2025 🎂"
 ];
 
 function showNextText() {
