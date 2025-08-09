@@ -9,7 +9,7 @@ const music = document.getElementById('bg-music');
 
 try { if (music) music.loop = false; } catch(e) {}
 
-const playlist = ["HBD.mp3", "HBD1.mp3"];
+const playlist = ["HBD.mp3", "HBD1.MP3"];
 let playlistIndex = 0;
 const playerA = document.getElementById('playerA');
 const playerB = document.getElementById('playerB');
