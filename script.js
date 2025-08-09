@@ -68,7 +68,7 @@ function onActiveEnded() {
 
     thankYouMsg = document.createElement("div");
     thankYouMsg.classList.add("thank-you-msg");
-    thankYouMsg.innerHTML = "Thank for watching";
+    thankYouMsg.innerHTML = "Thank for watching ❤️";
     document.body.appendChild(thankYouMsg);
 
     const countdown = document.createElement("div");
