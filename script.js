@@ -272,7 +272,7 @@ const texts = [
   "HAPPY<br>BIRTHDAY",
   "นะค้าบบบบบ",
   "พี่เบนซ์ ❤️",
-  "🎂 10/08/2025 🎂"
+  "<span class=\"inline-text\"><span>🎂</span> 10/08/2025 <span>🎂</span></span>"
 ];
 
 function showNextText() {
