@@ -359,17 +359,15 @@ button.expand-fade-out { animation: expandAndFadeOut 0.5s ease forwards;
 
   .panel.left .sticker{
     position: absolute;
-    left: 20px;
+    left: 20%;
     width: 70vw;
     max-width: 250px; 
-    justify-content: center;
   }
   .panel.right .sticker {
     position: absolute;
-    right: 20px;
+    right: 20%;
     width: 70vw;
     max-width: 250px;
-    justify-content: center;
   }
 
   #film-box {
