@@ -8,48 +8,48 @@
 
 @font-face {
   font-family: 'KhaowjeeThin';
-  src: url('./fonts/khaowjeethin.ttf') format('truetype');
+  src: url('khaowjeethin.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
 }
 @font-face {
   font-family: 'Mitr';
-  src: url('./fonts/Mitr-ExtraLight.ttf') format('truetype');
+  src: url('Mitr-ExtraLight.ttf') format('truetype');
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Mitr';
-  src: url('./fonts/Mitr-Light.ttf') format('truetype');
+  src: url('Mitr-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Mitr';
-  src: url('./fonts/Mitr-Regular.ttf') format('truetype');
+  src: url('Mitr-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Mitr';
-  src: url('./fonts/Mitr-Medium.ttf') format('truetype');
+  src: url('Mitr-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Mitr';
-  src: url('./fonts/Mitr-SemiBold.ttf') format('truetype');
+  src: url('Mitr-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Mitr';
-  src: url('./fonts/Mitr-Bold.ttf') format('truetype');
+  src: url('Mitr-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
