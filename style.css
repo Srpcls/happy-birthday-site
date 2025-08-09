@@ -109,10 +109,7 @@ html, body {
 h1 {
   position: absolute;
   top: 35%;
-  left: 33%;
-  font-size: 6vw;
-  width: 90%;
-  max-width: 600px;
+  font-size: 55px;
   font-family: 'khaowjeethin','mitr', sans-serif;
   text-shadow: 0 0 10px #7c7c7c, 0 0 20px rgb(255, 112, 243);
 }
@@ -120,7 +117,7 @@ h1 {
 #countdown {
   position: fixed;
   top: 50%;
-  align-items: center;
+  left: 50%;
   transform: translate(-50%, -50%);
   font-size: 80px;
   font-weight: bold;
@@ -337,4 +334,62 @@ button.expand-fade-out { animation: expandAndFadeOut 0.5s ease forwards;
 
 .replay-fade {
   animation: fadeIn 1s ease forwards;
+}
+@media (max-width: 768px) {
+  #text {
+    font-size: 8vw;
+    max-width: 95%;
+  }
+
+  h1 {
+    font-size: 7vw;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+  #start-screen button {
+    font-size: 20px;
+    padding: 10px 30px;
+  }
+
+  #countdown {
+    font-size: 12vw;
+  }
+
+  .panel.left .sticker,
+  .panel.right .sticker,
+  .panel.center .sticker {
+    width: 70vw;
+    max-width: 250px;
+  }
+
+  #film-box {
+    width: 90vw;
+    height: auto;
+  }
+
+  .film-track {
+    gap: 20px;
+  }
+
+  .film-track img {
+    height: auto;
+    max-height: 180px;
+  }
+
+  .thank-you-msg {
+    font-size: 10vw;
+  }
+
+  .replay-countdown {
+    font-size: 6vw;
+  }
+
+  #replay-btn {
+    font-size: 18px;
+    padding: 8px 15px;
+    bottom: 15px;
+    right: 15px;
+  }
 }
