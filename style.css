@@ -450,3 +450,9 @@ button.expand-fade-out { animation: expandAndFadeOut 0.5s ease forwards;
     right: 15px;
   }
 }
+
+.inline-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
