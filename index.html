@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday 🎂</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <canvas id="stars-canvas"></canvas>
+
+  <div id="start-screen">
+    <h1>🎉👇 กดเพื่อเริ่ม 👇🎉</h1>
+    <button id="start-btn">🎉 Start 🎉</button>
+  </div>
+
+  <div id="countdown" style="display: none;"></div>
+
+  <canvas id="matrix"></canvas>
+
+  <div id="text"></div>
+
+  <div id="sticker-scene">
+    <div class="panel left">
+      <img src="pic1.gif" class="sticker">
+    </div>
+
+    <div class="panel right">
+      <img src="pic2.gif" class="sticker">
+    </div>
+  </div>
+
+  <div id="film-box">
+    <div class="film-track" id="film-track"></div>
+  </div>
+
+  <audio id="bg-music" preload="auto">
+    <source src="HBD.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+<audio id="playerA" preload="auto"></audio>
+<audio id="playerB" preload="auto"></audio>
+
+  <button id="mute-btn">🔊</button>
+  <button id="replay-btn" style="display: none;">🔁Replay</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
